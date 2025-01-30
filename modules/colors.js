@@ -1,10 +1,9 @@
 export const colors = {
-  // Basic colors
+
   reset: "\x1b[0m",
   bright: "\x1b[1m",
   dim: "\x1b[2m",
 
-  // Foreground colors
   black: "\x1b[30m",
   red: "\x1b[31m",
   green: "\x1b[32m",
@@ -14,8 +13,7 @@ export const colors = {
   cyan: "\x1b[36m",
   white: "\x1b[37m",
   gray: "\x1b[90m",
-
-  // Bright colors
+  
   brightRed: "\x1b[91m",
   brightGreen: "\x1b[92m",
   brightYellow: "\x1b[93m",
@@ -24,47 +22,39 @@ export const colors = {
   brightCyan: "\x1b[96m",
   brightWhite: "\x1b[97m",
 
-  // Message type colors
-  success: "\x1b[92m", // Bright green
-  error: "\x1b[91m", // Bright red
-  warning: "\x1b[93m", // Bright yellow
-  info: "\x1b[96m", // Bright cyan
-  custom: "\x1b[95m", // Bright magenta
+  success: "\x1b[92m",
+  error: "\x1b[91m", 
+  warning: "\x1b[93m", 
+  info: "\x1b[96m", 
+  custom: "\x1b[95m", 
 
-  // Task colors
-  taskComplete: "\x1b[92m", // Bright green
-  taskFailed: "\x1b[91m", // Bright red
-  taskInProgress: "\x1b[96m", // Bright cyan
-  taskWaiting: "\x1b[93m", // Bright yellow
+  taskComplete: "\x1b[92m", 
+  taskFailed: "\x1b[91m", 
+  taskInProgress: "\x1b[96m", 
+  taskWaiting: "\x1b[93m", 
 
-  // Quack colors
-  quackPositive: "\x1b[92m", // Bright green
-  quackNegative: "\x1b[91m", // Bright red
-  quackCount: "\x1b[95m", // Bright magenta
-  quackDecibel: "\x1b[96m", // Bright cyan
+  quackPositive: "\x1b[92m",
+  quackNegative: "\x1b[91m", 
+  quackCount: "\x1b[95m", 
+  quackDecibel: "\x1b[96m",
 
-  // Account colors
-  accountName: "\x1b[95m", // Bright magenta
-  accountInfo: "\x1b[96m", // Bright cyan
-  accountWarning: "\x1b[93m", // Bright yellow
+  accountName: "\x1b[95m", 
+  accountInfo: "\x1b[96m", 
+  accountWarning: "\x1b[93m",
 
-  // Faucet colors
-  faucetSuccess: "\x1b[92m", // Bright green
-  faucetError: "\x1b[91m", // Bright red
-  faucetWait: "\x1b[93m", // Bright yellow
-  faucetInfo: "\x1b[96m", // Bright cyan
+  faucetSuccess: "\x1b[92m",
+  faucetError: "\x1b[91m", 
+  faucetWait: "\x1b[93m", 
+  faucetInfo: "\x1b[96m", 
+  
+  timerCount: "\x1b[96m",  
+  timerWarn: "\x1b[93m",
 
-  // Timer colors
-  timerCount: "\x1b[96m", // Bright cyan
-  timerWarn: "\x1b[93m", // Bright yellow
+  bannerText: "\x1b[96m", 
+  bannerBorder: "\x1b[36m", 
+  bannerLinks: "\x1b[95m", 
 
-  // Banner colors
-  bannerText: "\x1b[96m", // Bright cyan
-  bannerBorder: "\x1b[36m", // Cyan
-  bannerLinks: "\x1b[95m", // Bright magenta
-
-  // Menu colors
-  menuTitle: "\x1b[95m", // Bright magenta
-  menuOption: "\x1b[96m", // Bright cyan
-  menuBorder: "\x1b[36m", // Cyan
+  menuTitle: "\x1b[95m",
+  menuOption: "\x1b[96m",
+  menuBorder: "\x1b[36m",
 };
